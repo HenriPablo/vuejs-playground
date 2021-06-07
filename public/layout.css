@@ -1,0 +1,36 @@
+html, body{
+    font-size: 12px;
+}
+
+.bg-dark {
+    background-color: #002e6c !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2{
+    font-family: Cabin, sans-serif;
+    color: #002e6c;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px 0;
+    margin:10px 0;
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    font-size: 16px;
+    border-bottom: 3px solid #002e6c;
+}
+
+section{
+    padding:20px 0 40px 0;
+}
+
+.container-xl{
+    max-width: 1111px;
+}
+
