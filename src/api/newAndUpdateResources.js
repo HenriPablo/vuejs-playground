@@ -18,12 +18,12 @@ const newAndUpdatedResources = {
         },
         {
             "src": "art/thumb-10.jpg",
-            "text": "Frank Winston Crum - Florida Dividend Program Eligibility - Construction",
+            "text": "BunnanTek - Florida Dividend Program Eligibility - Construction",
             "showDownload":"false"
         },
         {
             "src": "art/thumb-11.jpg",
-            "text": "Frank Winston Crum - Florida Dividend Program Eligibility - Non-Construction",
+            "text": "BunnanTek - Florida Dividend Program Eligibility - Non-Construction",
             "showDownload":"false"
         },
         {

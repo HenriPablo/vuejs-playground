@@ -13,12 +13,12 @@ const popularResources = {
         },
         {
             "src": "art/thumb-3.jpg",
-            "text": "Frank Winston Crum - Florida WC Target List",
+            "text": "BunnanTek - Florida WC Target List",
             "showDownload":"false"
         },
         {
             "src": "art/thumb-4.jpg",
-            "text": "Frank Winston Crum - Inland Marine Options",
+            "text": "BunnanTek - Inland Marine Options",
             "showDownload":"false"
         },
         {

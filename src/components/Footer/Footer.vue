@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="container-xl">&copy; 2021 FrankWinstonCrum</div>
+    <div class="container-xl">&copy; 2021 BunnanTek</div>
   </footer>
 </template>
 

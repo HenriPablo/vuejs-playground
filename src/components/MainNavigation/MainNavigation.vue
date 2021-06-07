@@ -2,8 +2,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-xl nav-wrapper">
       <div class="navbar-brand logo-wrapper">
-        <a href="#" title="Frank Winston Crum Insurance - Home">
-          <img src="art/logo.jpg" alt="Frank Winston Crum Insurance logo"/>
+        <a href="#" title="BunnanTek - Home">
+          <img src="art/logo.jpg" alt="BunnanTek logo"/>
         </a>
         <span>Agent<br/>Resources</span>
       </div>
