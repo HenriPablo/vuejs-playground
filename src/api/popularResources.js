@@ -3,33 +3,27 @@ const popularResources = {
     "pixData": [
         {
             "src": "art/thumb-1.jpg",
-            "text": "Endorsement Request - General Liability",
-            "showDownload":"false"
+            "text": "Endorsement Request - General Liability"
         },
         {
             "src": "art/thumb-2.jpg",
-            "text": "Appetite Guide - Extended Resource Guide",
-            "showDownload":"false"
+            "text": "Appetite Guide - Extended Resource Guide"
         },
         {
             "src": "art/thumb-3.jpg",
-            "text": "BunnanTek - Florida WC Target List",
-            "showDownload":"false"
+            "text": "BunnanTek - Florida WC Target List"
         },
         {
             "src": "art/thumb-4.jpg",
-            "text": "BunnanTek - Inland Marine Options",
-            "showDownload":"false"
+            "text": "BunnanTek - Inland Marine Options"
         },
         {
             "src": "art/thumb-5.jpg",
-            "text": "FWCI Roofing Supplemental Application 11/2020",
-            "showDownload":"false"
+            "text": "FWCI Roofing Supplemental Application 11/2020"
         },
         {
             "src": "art/thumb-6.jpg",
-            "text": "Florida GL Manual - Clear Blue",
-            "showDownload":"false"
+            "text": "Florida GL Manual - Clear Blue"
         }
     ]
 }

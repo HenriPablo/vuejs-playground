@@ -66,15 +66,37 @@ export default {
     }
   },
   mounted() {
-    popularResources.getPopularResources().then(response  => {
-      this.resources.popularResources = response;
-    });
+    this.getData();
+    },
+  methods : {
+    async getData(){
+      const gridData = await Promise.allSettled([
+          popularResources.getPopularResources(),
+          newAndUpdateResources.getNewAndUpdatedResources()
+          ]);
 
-    newAndUpdateResources.getNewAndUpdatedResources().then(response => {
-      this.resources.newAndUpdatedResources = response;
-    })
-  },
-  methods : {}
+    gridData.map( ( item ) => {
+      if (item.status === "fulfilled"){
+        if (item.value.title === "Popular Resources") {
+          item.value.pixData = this.augmentData(item.value.pixData);
+          this.resources.popularResources = item.value;
+        } else if (item.value.title === "New & Updated Resources") {
+          item.value.pixData = this.augmentData(item.value.pixData);
+          this.resources.newAndUpdatedResources = item.value;
+        }
+      } else {
+        console.log("Handle unfulfilled promise");
+      }
+    });
+    },
+
+    augmentData( data ){
+      return data.map( ( pix ) => {
+        pix.showDownload = "false";
+        return pix;
+      });
+    }
+  }
 }
 </script>
 <style >
